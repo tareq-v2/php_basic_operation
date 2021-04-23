@@ -1,0 +1,34 @@
+.input-title {
+    margin-top: 20px;
+    padding-bottom: 12px;
+}
+
+.form-body {
+    background: white;
+    padding: 20px;
+}
+.search-area {
+    text-align: right;
+}
+.admin-view-area {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 992px)
+{
+	.form-group label{
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	.buttons-area {
+    text-align: center;
+}
+.search-area {
+    text-align: center;
+    margin-top: 10px;
+}
+
+}
